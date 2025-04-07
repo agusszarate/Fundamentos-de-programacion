@@ -17,12 +17,11 @@ def encontrar_sucursal_menos_ventas(matriz_ventas: list) -> int:
 
 
 def encontrar_dia_mayor_venta(matriz_ventas: list) -> tuple:
-    dias = len(matriz_ventas[0]) if matriz_ventas else 0
-    ventas_por_dia = [0] * dias
+    # Inicializamos una lista para almacenar las ventas por día
+    ventas_por_dia = [0] * 5
     
-    # Sumamos ventas de todas las sucursales por día
     for sucursal in matriz_ventas:
-        for dia in range(dias):
+        for dia in range(5):
             ventas_por_dia[dia] += sucursal[dia]
     
     max_venta = max(ventas_por_dia)
@@ -34,10 +33,10 @@ def encontrar_dia_mayor_venta(matriz_ventas: list) -> tuple:
 def imprimir_resultados(total_ventas: float, sucursal_menos_ventas: int, dia_mayor_venta: tuple):
     DIAS = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
     
-    print(f"a. Total semanal de ventas: ${total_ventas:.2f}")
+    print(f"a. Total semanal de ventas: ${total_ventas}")
     print(f"b. Sucursal que vendió menos: {sucursal_menos_ventas + 1}")
     print(f"c. Día que se vendió más: {DIAS[dia_mayor_venta[0]]}, "
-          f"con un total de ${dia_mayor_venta[1]:.2f}")
+          f"con un total de ${dia_mayor_venta[1]}")
 
 
 def main():
