@@ -1,0 +1,5 @@
+1,Juan Perez,1000
+1,Rosa Garcia,1800
+3,Juan Perez,700
+4,Rosa Garcia,1300
+9,Juan Perez,3500

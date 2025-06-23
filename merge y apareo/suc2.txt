@@ -1,0 +1,4 @@
+1,Juan Gonzalez,1000
+1,Rosa Martinez,1800
+6,Rosa Martinez,1300
+9,Rosa Martinez,1300

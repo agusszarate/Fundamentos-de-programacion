@@ -20,3 +20,6 @@ int main() {
     printf("Valor %d", pertenece(vec, 6, 6));
     return 0;
 }
+int pertenece(int vec[], int n, int valor) {
+    
+}

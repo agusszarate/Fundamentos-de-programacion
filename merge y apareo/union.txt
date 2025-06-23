@@ -1,0 +1,9 @@
+1,Juan Perez,1000,suc1
+1,Rosa Garcia,1800,suc1
+1,Juan Gonzalez,1000,suc2
+1,Rosa Martinez,1800,suc2
+3,Juan Perez,700,suc1
+4,Rosa Garcia,1300,suc1
+6,Rosa Martinez,1300,suc2
+9,Juan Perez,3500,suc1
+9,Rosa Martinez,1300,suc2
